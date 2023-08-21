@@ -1,0 +1,27 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyACBrjrjOKHriL5oABHZm5krr6lDwi1bQc",
+  authDomain: "signuu-1426f.firebaseapp.com",
+  databaseURL: "https://signuu-1426f-default-rtdb.firebaseio.com",
+  projectId: "signuu-1426f",
+  storageBucket: "signuu-1426f.appspot.com",
+  messagingSenderId: "878261400446",
+  appId: "1:878261400446:web:ecbd5834c962184da5b92f",
+  measurementId: "G-LQZWXZHTE6"
+};
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCi66srejRyB8IC_B75FgP1BLiB3vMgRWU",
+  authDomain: "booksadda-ad2d6.firebaseapp.com",
+  projectId: "booksadda-ad2d6",
+  storageBucket: "booksadda-ad2d6.appspot.com",
+  messagingSenderId: "752930484373",
+  appId: "1:752930484373:web:ae63987b1a0c5dfec96b9c",
+  measurementId: "G-2DSMWTR0BG"
+};
+
+The Book,its cover and all the pages are intact,and not torn.
+I will keep this book reserved for orders that i get on Bookex.
+I have understoood that i will get credit of rewardpoints related with this book,and not a cash payment/credit,when i handover this book on receipt of an order.
+I will safelfy pack the book and give to nearest courier center in minimum days of book request.
+I agree to pay for service in giving book in exchange for receiving books in free of cost.

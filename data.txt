@@ -1,0 +1,21 @@
+Home: This is the default page of the website and should be accessible from every page on the site.
+
+Search: This allows users to search for books by title, author, genre, or ISBN.
+
+Browse Books: This allows users to browse the available books by genre, author, and other criteria.
+
+Sell Books: This takes users to a page where they can sell their own books or offer them for exchange.
+
+Request Books: This allows users to request specific books that they are looking for.
+
+My Account: This provides users with access to their personal account, where they can track their book exchange transactions, update their profile, and manage their wishlist.
+
+About Us: This provides information about the book exchange website, its mission, and its policies.
+
+Contact Us: This provides users with a way to get in touch with the book exchange website administrators, such as through email, phone, or chat.
+
+Help/FAQ: This provides answers to frequently asked questions, such as how to sell a book, how to request a book, or how to create an account.
+
+
+
+Try to accces ISBN number using api to get info about the books 

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Give Your Book</title>
+  <link rel="stylesheet" href="add.css">
+</head>
+<body>
+  <div class="main">
+  <h2 class="logo">Book Ex</h2>
+  <div class="menu">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">REQUEST BOOK</a></li>
+        <li><a href="#">GIVE BOOK</a></li>
+        <li><a href="#">REWARDS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT US</a></li>
+    </ul>
+</div>
+<div class="search">
+  <input class="srch" type="search" name="" placeholder="Type book name">
+  <a href="#"><button class="btn">Search</button></a>
+</div>
+  <h3>Give a book </h3>
+  <div class="form2">
+    <form action="" id="form2">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+  
+      <label for="author">Author:</label>
+      <input type="text" id="author" name="author" required><br>
+  
+      <label for="isbn">ISBN:</label>
+      <input type="text" id="isbn" name="isbn" required>
+  
+      <label for="language">Language:</label>
+      <input type="text" id="language" name="language" required><br>
+  
+      <label for="rupees">Price (in Rupees):</label>
+      <input type="number" id="rupees" name="rupees" required>
+  
+      <label for="bookcondition">Book Condition:</label>
+      <select id="bookcondition" name="bookcondition" required>
+        <option value="good">Good</option>
+        <option value="satisfactory">Satisfactory</option>
+        <option value="New Like">New-Like</option>
+      </select><br>
+  
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="5" required></textarea>
+  
+      <label for="category">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCategory:</label>
+      <select id="category" name="category">
+        <option value="romance">Romance</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="Mystery">Mystery</option>
+        <option value="Juvenile Fiction">Juvenile Fiction</option>
+        <option value="Exam Preparation">Exam Preparation</option>
+        <option value="Buisness">Buisness</option>
+        <option value="Sports">Sports</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Horror">Horror</option>
+        <option value="Biography and autobiography">Biography and autobiography</option>
+        <option value="Textbook">Textbook</option>
+        <option value="Food">Food</option>
+        <option value="Travel">Travel</option>
+  
+      </select><br>
+      <label for="front_cover">Front Cover Image:</label>
+      <input type="file" id="front_cover" name="front_cover"><br>
+  
+      <label for="back_cover">Back Cover Image:</label>
+      <input type="file" id="back_cover" name="back_cover"><br>
+      <div class="check">
+      <label>
+        <input type="checkbox" id="original_copy" name="original_copy" required>
+        This book I intend to give out is an original copy and not a pirated one.
+      </label><br>
+      <label>
+          <input type="checkbox" id="intact_book" name="intact_book" required>
+          The Book, its cover and all the pages are intact, and not torn.
+        </label><br>
+      <label>
+          <input type="checkbox" id="res_book" name="res_book" required>
+          I will keep this book reserved for orders that i get on Bookex.
+      </label><br>  
+      <label>
+          <input type="checkbox" id="rew_book" name="rew_book" required>
+          I have understoood that i will get credit of rewardpoints related with this book,
+          and not a cash payment/credit,when i handover this book on receipt of an order.
+      </label><br>   
+      <label>
+          <input type="checkbox" id="cou_book" name="cou_book" required>
+          I will safelfy pack the book and give to nearest courier center in minimum days of book request.
+      </label><br> 
+      <label>
+          <input type="checkbox" id="free_book" name="free_book" required>
+          I agree to pay for service in giving book in exchange for receiving books in free of cost.
+      </label><br> 
+    </div>
+      <input type="submit" value="Submit">
+  </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
+  
+  <script src="./add.js"></script>
+</body>
+</html>
